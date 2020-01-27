@@ -42,7 +42,7 @@ p:last-child { margin-bottom: 0; }
 /* custom */
 
 #tm-section-4{
-    display: none;
+    
 }
 #tm-section-search{
     display: none;
@@ -88,7 +88,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .tm-top-bar.active .navbar-expand-lg .navbar-nav .nav-link { padding: 15px 35px;
-    margin-bottom: 7px;}
+    }
 .tm-top-bar.active .navbar-brand { font-size: 1.4rem; }
 
 .tm-top-bar .navbar-brand img {
@@ -133,6 +133,7 @@ p:last-child { margin-bottom: 0; }
     font-size: 1.5rem;
     margin-top: 10px;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 
@@ -526,53 +527,69 @@ footer p { color: white; }
 #google-map { height: 600px; }
 
 .fa {
+   
     margin-top: 20px;
     font-size: 30px;
     margin-bottom: 10px;
-    width: 40px;
+    width: 60px;
     height: 40px;
 }
 .fa-telegram{
-    color: #000000;
+    color:#69c6babf;
+}
+.fa-volume-control-phone{
+    color:#69c6babf;
+} 
+.fa-whatsapp{
+    color:#69c6babf;
 }
 .fa-vk{
+    color:#69c6babf;
     display: inline-block;
-    
-   
 }
-.fa-whatsapp{
-    display: inline-block;
-  
-    width: 40px;
-    height: 40px;
-    font-size: 40px;
+.fa-vk:hover{
+    color: #c66995;
+    transition: all 0.3s ease;
 }
-.fa-phone{
-    display: inline-block;
-    border: black 4px solid;
-    border-radius: 15px;
-    width: 40px;
-    height: 40px;
-    font-size: 36px;
+.fa-whatsapp:hover{
+    color: #c66995;
+    transition: all 0.3s ease;
+}
+.fa-volume-control-phone:hover{
+    color: #c66995;
+    transition: all 0.3s ease;
+}
+.fa-telegram:hover{
+    color: #c66995;
+    transition: all 0.3s ease;
 }
 #maket{height: 700px;}
 .red-block{
-    background-color: rgb(198, 105, 149, 0.3);
- 
+    background-color: rgb(198, 105, 149);
+ color: #fff;
     padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 17px;
+
 }
 
 .blue-block{
-    background-color: rgb(105, 198, 186, 0.3); 
-    
+    text-align: center;
+    background-color: rgb(105, 198, 186); 
+    color: #fff;
     padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+
 }
 .tm-banner-header b{
 text-align: center!important;
+font-size: 37px;
 }
 .tm-banner-header p{
    
-    width: 840px;
+
     text-indent: 40px;
     text-align: justify;
 }
@@ -644,6 +661,11 @@ text-align: center!important;
     }
 
     .tm-recommended-description-box { width: 450px; }
+}
+@media screen and (max-width: 375px) {
+.fa{
+   width: 40px;
+}
 }
 
 @media screen and (max-width: 986px) {
